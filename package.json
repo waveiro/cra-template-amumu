@@ -1,0 +1,37 @@
+{
+  "name": "cra-template-amumu",
+  "version": "1.0.0",
+  "description": "Create React App template using: Redux, React Testing Library, React Router, SASS, Typescript and ESLint",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waveiro/cra-template-amumu.git"
+  },
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "typescript",
+    "redux",
+    "react-router",
+    "sass",
+    "eslint",
+    "react testing library"
+  ],
+  "author": "Willian Arsenio de Sousa <waveiro@hotmail.com> (https://willian.is-a.dev/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/waveiro/cra-template-amumu/issues"
+  },
+  "homepage": "https://github.com/waveiro/cra-template-amumu#readme",
+  "engines": {
+    "node": ">=14"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
