@@ -1,4 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
+import { RootState } from '../../../store';
 
 export interface HomeState {
   value: number;
@@ -12,11 +13,17 @@ export const homeSlice = createSlice({
   name: 'home',
   initialState,
   reducers: {
-    noop: () => {
+    decrement: (state) => {
+      state.value -= 1;
+    },
+    increment: (state) => {
+      state.value += 1;
     },
   }
 });
 
-export const { noop } = homeSlice.actions;
+export const { decrement, increment } = homeSlice.actions;
+
+export const selectCount = (state: RootState) => state.home.value
 
 export default homeSlice.reducer;

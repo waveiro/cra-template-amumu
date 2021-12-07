@@ -1,7 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit';
 
 import homeReducer from '../features/Home/store';
-import { apiConfig as api } from '../api/api';
+import { apiConfig as api } from '../api';
 
 export const store = configureStore({
   reducer: {
