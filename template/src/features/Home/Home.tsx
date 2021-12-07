@@ -6,7 +6,7 @@ import {
   decrement,
   increment,
   selectCount
-} from './store/Home.slice';
+} from './store';
 
 function Home() {
   const count = useAppSelector(selectCount);
