@@ -1,12 +1,12 @@
-@import 'styles/abstracts/variables';
-@import 'styles/abstracts/mixins';
-@import 'styles/abstracts/placeholders';
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+@import 'abstracts/placeholders';
 
-@import 'styles/base/reset';
+@import 'base/reset';
 
-@import 'styles/layout/grid';
+@import 'layout/grid';
 
-@import 'styles/themes/theme';
-@import 'styles/themes/dark-theme';
+@import 'themes/theme';
+@import 'themes/dark-theme';
 
-@import 'styles/shame';
+@import 'shame';

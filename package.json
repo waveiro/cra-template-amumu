@@ -1,6 +1,6 @@
 {
   "name": "cra-template-amumu",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Create React App template using: Redux, React Testing Library, React Router, SASS, Typescript and ESLint",
   "main": "index.js",
   "scripts": {
